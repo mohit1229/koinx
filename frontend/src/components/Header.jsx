@@ -1,9 +1,9 @@
 const Header = () => {
     return (
-      <div className="h-16 bg-white">
-        <div className="px-6 flex flex-row justify-between items-center h-full">
+      <div className="h-16 px-20 bg-white md:h-20">
+        <div className="flex flex-row justify-between items-center h-full">
           {/* Left Logo */}
-          <div className="h-full flex items-center">
+          <div className="h-full flex items-center w-24">
             <img src="/logo.png" alt="Left Logo" />
           </div>
   

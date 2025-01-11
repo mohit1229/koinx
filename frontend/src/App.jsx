@@ -6,7 +6,7 @@ function App() {
 
   return (
     
-      <div className="bg-maingrey w-full h-full ">
+      <div className="bg-maingrey w-full h-full font-inter">
        <ResponsiveLayout />
        </div>
   )
