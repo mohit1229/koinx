@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        'maingrey':'#EFF2F5',
+        'cardBorder':'#DEE1E6',
+      }
+    },
+    
   },
   plugins: [],
 }
