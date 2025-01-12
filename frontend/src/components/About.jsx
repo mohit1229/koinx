@@ -13,20 +13,22 @@ return (
 Diam praesent massa dapibus magna aliquam a dictumst volutpat. Egestas vitae pellentesque auctor amet. Nunc sagittis libero adipiscing cursus felis pellentesque interdum. Odio cursus phasellus velit in senectus enim dui. Turpis tristique placerat interdum sed volutpat. Id imperdiet magna eget eros donec cursus nunc. Mauris faucibus diam mi nunc praesent massa turpis a. Integer dignissim augue viverra nulla et quis lobortis phasellus. Integer pellentesque enim convallis ultricies at.
 
 Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam massa vel convallis duis ac. Mi adipiscing semper scelerisque porttitor pulvinar nunc risus. Fermentum potenti iaculis lacinia congue ipsum fames amet dui. Purus ultrices tincidunt volutpat in eget. Ullamcorper dui</p>
-    <h3>Already Holding Crypto?</h3>
+    <h3 className="text-2xl font-semibold" >Already Holding Crypto?</h3>
+    <div className="lg:flex">
 <div className="flex bg-[#79F1A4] rounded-md ">
-<img></img>
+<img src="about1.png"></img>
 <div>
     <h3>Calculate your Profits</h3>
     <button className="bg-white text-black rounded-lg">Check now-</button>
 </div>
 </div>
 <div className="flex bg-[#FF9865] rounded-md">
-<img></img>
+<img src="about2.png"></img>
 <div>
     <h3>Calculate your tax liability</h3>
     <button className="bg-white text-black rounded-lg">Check now-</button>
 </div> 
+</div>
 </div>
 </Card>
     </Fragment>
