@@ -1,6 +1,7 @@
 import { Fragment } from "react"
 import Card from "./Card"
 
+// eslint-disable-next-line react/prop-types
 const Performance=({usd})=>{
     return (
         <Fragment>
