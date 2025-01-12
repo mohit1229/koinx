@@ -61,10 +61,14 @@ const ResponsiveLayout = () => {
         <h4 className="text-sm"> Cryptocurrencies {">>"} Bitcoin </h4>
         <div className="lg:bg-white">
           <div className="flex px-12 pt-5">
-            <img src="/logo.png" alt="Bitcoin logo" />
+            <img src="/bitcoin.png" alt="Bitcoin logo" />
+            <div className="flex pl-2 items-center">
             <h3 className="text-xl font-semibold">Bitcoin</h3>
-            <h4 className="text-sm h-full">BTC</h4>
-            <div className="bg-rank text-white text-base">Rank #1</div>
+            </div>
+            <div className="pt-1.5 px-2">
+            <h4 className="text-sm h-full text-rank">BTC</h4>
+            </div>
+            <div className="bg-rank text-white text-base h-10 w-20 ml-10 rounded-lg flex items-center justify-center"><h4> Rank #1</h4></div>
           </div>
 
           <div className="container lg:px-4 lg:bg-white">
@@ -73,7 +77,7 @@ const ResponsiveLayout = () => {
                 <Card>
                   <div className="flex">
                     <h2 className="text-3xl font-semibold mb-4">${usd.toLocaleString()}</h2>
-                    <div className="bg-priceBg text-priceText text-base">
+                    <div className="ml-8 bg-priceBg text-priceText text-base p-2">
                       {inr_24h_change.toFixed(2)}%
                     </div>
                     <div className="text-sm">(24h)</div>

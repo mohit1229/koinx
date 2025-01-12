@@ -8,7 +8,7 @@ const SignUp=()=>{
                 </div>
                 <div className="flex justify-center">
 
-                <p className="text-sm font-medium">With our range of features that you can equip for free,
+                <p className="text-sm font-medium p-4">With our range of features that you can equip for free,
                 KoinX allows you to be more educated and aware of your tax reports.</p>
                 </div>
                 <div className="flex justify-center">
